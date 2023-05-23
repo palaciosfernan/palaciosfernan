@@ -1,0 +1,22 @@
+.headers{
+    background-color: rgb(206, 206, 206);
+    margin-left:30px;
+    margin-right: 30px;
+    display: flex;
+    height: 80px;
+}
+.logo{
+    width: 60px;
+}
+.letra{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carrera{
+    text-align: center;
+}
+#grid{
+    display: grid;
+    height: 450px;
+    grid-template-columns: repeat(3, 25%);
+}
